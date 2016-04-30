@@ -4,7 +4,7 @@
 #
 Name     : XStatic-smart-table
 Version  : 1.4.5.3
-Release  : 10
+Release  : 11
 URL      : https://pypi.python.org/packages/source/X/XStatic-smart-table/XStatic-smart-table-1.4.5.3.tar.gz
 Source0  : https://pypi.python.org/packages/source/X/XStatic-smart-table/XStatic-smart-table-1.4.5.3.tar.gz
 Summary  : smart-table 1.4.5 (XStatic packaging standard)
