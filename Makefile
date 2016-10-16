@@ -1,4 +1,5 @@
 PKG_NAME := XStatic-smart-table
-URL := https://pypi.python.org/packages/source/X/XStatic-smart-table/XStatic-smart-table-1.4.5.3.tar.gz
+URL := http://pypi.debian.net/XStatic-smart-table/XStatic-smart-table-1.4.13.2.tar.gz
+ARCHIVES :=
 
 include ../common/Makefile.common
