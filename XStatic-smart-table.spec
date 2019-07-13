@@ -4,7 +4,7 @@
 #
 Name     : XStatic-smart-table
 Version  : 1.4.13.2
-Release  : 17
+Release  : 18
 URL      : http://pypi.debian.net/XStatic-smart-table/XStatic-smart-table-1.4.13.2.tar.gz
 Source0  : http://pypi.debian.net/XStatic-smart-table/XStatic-smart-table-1.4.13.2.tar.gz
 Summary  : smart-table 1.4.13 (XStatic packaging standard)
