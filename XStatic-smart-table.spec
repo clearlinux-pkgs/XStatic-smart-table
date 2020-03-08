@@ -4,7 +4,7 @@
 #
 Name     : XStatic-smart-table
 Version  : 1.4.13.2
-Release  : 21
+Release  : 22
 URL      : http://pypi.debian.net/XStatic-smart-table/XStatic-smart-table-1.4.13.2.tar.gz
 Source0  : http://pypi.debian.net/XStatic-smart-table/XStatic-smart-table-1.4.13.2.tar.gz
 Summary  : smart-table 1.4.13 (XStatic packaging standard)
@@ -16,18 +16,18 @@ BuildRequires : buildreq-distutils3
 
 %description
 XStatic-smart-table
--------------------
-
-smart-table javascript library packaged for setuptools (easy_install) / pip.
-
-This package is intended to be used by **any** project that needs these files.
-
-It intentionally does **not** provide any extra code except some metadata
-**nor** has any extra requirements. You MAY use some minimal support code from
-the XStatic base package, if you like.
-
-You can find more info about the xstatic packaging way in the package
-`XStatic`.
+        -------------------
+        
+        smart-table javascript library packaged for setuptools (easy_install) / pip.
+        
+        This package is intended to be used by **any** project that needs these files.
+        
+        It intentionally does **not** provide any extra code except some metadata
+        **nor** has any extra requirements. You MAY use some minimal support code from
+        the XStatic base package, if you like.
+        
+        You can find more info about the xstatic packaging way in the package
+        `XStatic`.
 
 %package python
 Summary: python components for the XStatic-smart-table package.
@@ -43,7 +43,7 @@ python components for the XStatic-smart-table package.
 Summary: python3 components for the XStatic-smart-table package.
 Group: Default
 Requires: python3-core
-Provides: pypi(XStatic-smart-table)
+Provides: pypi(xstatic_smart_table)
 
 %description python3
 python3 components for the XStatic-smart-table package.
@@ -58,8 +58,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582850223
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583696117
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
